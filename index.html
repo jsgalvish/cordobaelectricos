@@ -44,7 +44,7 @@
 				<div class="container">
 					<ul class="header-links pull-left">
 						<li><a href="#"><i class="fa fa-phone"></i>561 4864 - 320 8977159</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> cordobaelectricos@gmail.com</a></li>						
+						<li><a href="#"><i class="fa fa-envelope-o"></i> cordobaelectricos@gmail.com</a></li>
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-map-marker"></i> Cl. 18 #12-67 Bogota</a></li>
@@ -88,10 +88,10 @@
 						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
 							<div class="header-ws">
-								<a href="#" class="logo">
+								<a href="https://wa.me/573208977159?text=Hola,%20Quiero%20hacer%20una%20cotizacion" class="logo">
 									<img src="./img/whatsapp.png" alt="">
 								</a>
-							</div>						
+							</div>
 						</div>
 						<!-- /ACCOUNT -->
 					</div>
@@ -128,14 +128,14 @@
 									<div class="row">
 										<div class="col-lg-6 ">
 											<div class="mb-30">
-			
+
 												<!-- sec-title -->
 												<div class="sec-title sec-title__lg-title">
 													<h2 class="sec-title__title" style="color: black;">ACERCA DE <span>ELECTRICOS INDUSTRIALES CORDOBA</span></h2><span class="sec-title__divider"></span>
 												</div><!-- End / sec-title -->
-			
-												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br>
-												<p>Duplex, Encauchetado, Alambres, Iluminacion Led en General</p><br><br><a class="primary-btn order-submit" href="#">Descarga Nuestro Catalogo</a>
+
+												<p>Venta de materiales Electricos para industria y la construccion. Despachamos a todo el pais</p><br>
+												<p>Duplex, Encauchetado, Alambres, Iluminacion Led en General</p><br><br><a class="primary-btn order-submit" href="https://drive.google.com/open?id=1yepO7y72cOvTjVV2OcAfB-WJxWvhjWy0">Descarga Nuestro Catalogo</a>
 											</div>
 										</div>
 										<div class="col-lg-6 ">
@@ -209,7 +209,7 @@
 							</div>
 						</div>
 						<!-- /shop -->
-	
+
 						<!-- shop -->
 						<div class="col-md-4 col-xs-6">
 							<div class="shop">
@@ -222,12 +222,12 @@
 							</div>
 						</div>
 						<!-- /shop -->
-	
+
 						<!-- shop -->
 						<div class="col-md-4 col-xs-6">
 							<div class="shop">
 								<div class="shop-img">
-									<img src="./img/alambre.jpg" alt="">
+									<img src="./img/alambre.png" alt="">
 								</div>
 								<div class="shop-body">
 									<h3>Alambre</h3>
@@ -251,12 +251,12 @@
 							</div>
 						</div>
 						<!-- /shop -->
-	
+
 						<!-- shop -->
 						<div class="col-md-4 col-xs-6">
 							<div class="shop">
 								<div class="shop-img">
-									<img src="./img/electricos.jpeg" alt="">
+									<img src="./img/electricos.png" alt="">
 								</div>
 								<div class="shop-body">
 									<h3>Tubos<br>Eléctricos</h3>
@@ -264,7 +264,7 @@
 							</div>
 						</div>
 						<!-- /shop -->
-	
+
 						<!-- shop -->
 						<div class="col-md-4 col-xs-6">
 							<div class="shop">
@@ -283,7 +283,7 @@
 			<!-- /container -->
 		</div>
 		<!-- /SECTION -->
-		
+
 		<!-- FOOTER -->
 		<footer id="footer">
 			<!-- top footer -->
@@ -299,30 +299,27 @@
 									<div class="main-content">
 										<div class="row">
 											<div class="col-lg-6 ">
-												<form class="contact-form">
-	
+												<form class="contact-form" method='POST' onsubmit="return send_email(event)">
+
 													<!-- form-item -->
 													<div class="form-item">
-														<input class="form-control" type="text" name="input" placeholder="Nombre"/>
+														<input class="form-control" type="text" name="input" placeholder="Nombre" id="nombre"/>
 													</div><!-- End / form-item -->
-	
-	
+
+
+
+
+
 													<!-- form-item -->
 													<div class="form-item">
-														<input class="form-control" type="text" name="input" placeholder="email"/>
+														<input class="form-control" type="text" name="input" placeholder="Telefono" id="telefono"/>
 													</div><!-- End / form-item -->
-	
-	
+
 													<!-- form-item -->
 													<div class="form-item">
-														<input class="form-control" type="text" name="input" placeholder="Telefono"/>
+														<textarea name="message" placeholder="Mensaje" style="height: 150px;" id="mensaje"></textarea>
 													</div><!-- End / form-item -->
-	
-													<!-- form-item -->
-													<div class="form-item">
-														<textarea name="message" placeholder="Mensaje" style="height: 150px;"></textarea>
-													</div><!-- End / form-item -->
-	
+
 													<button class="primary-btn order-submit" type="submit">Solicitar Cotizacion</button>
 												</form>
 											</div>
@@ -334,16 +331,16 @@
 								</div>
 								<div class="col-lg-3  col-lg-pull-9">
 									<div class="sidebar">
-	
+
 										<!-- widget -->
 										<section class="widget">
-	
+
 											<!-- sec-title -->
 											<div class="sec-title">
 												<h2 class="sec-title__title">Horas Laborales</h2><span class="sec-title__divider"></span>
 											</div><!-- End / sec-title -->
-	
-	
+
+
 											<!--  -->
 											<div>
 												<div class="widget-contact__item"><span class="widget-contact__title">Tel:</span>
@@ -357,9 +354,9 @@
 													<p class="widget-contact__text">Sabados: 8:00 a.m - 2:00 p.m</p>
 												</div>
 											</div><!-- End /   -->
-	
+
 										</section><!-- End / widget -->
-	
+
 									</div>
 								</div>
 							</div>
@@ -392,6 +389,7 @@
 		<script src="js/slick.min.js"></script>
 		<script src="js/nouislider.min.js"></script>
 		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/email.js"></script>
 		<script src="js/main.js"></script>
 
 	</body>

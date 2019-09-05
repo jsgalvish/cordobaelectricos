@@ -733,7 +733,7 @@ textarea.input {
   bottom: 0;
   left: 0px;
   width: 60%;
-  background: #D10024;
+/*  background: #D10024; */
   opacity: 0.8;
   -webkit-transform: skewX(-45deg);
   -ms-transform: skewX(-45deg);
@@ -781,7 +781,9 @@ textarea.input {
 }
 
 .shop .shop-body h3 {
-  color: #FFF;
+  color: #000;
+  -webkit-text-stroke-width: 0.1px;
+   -webkit-text-stroke-color: white;
 }
 
 .shop .shop-body .cta-btn {
